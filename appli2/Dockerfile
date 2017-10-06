@@ -1,4 +1,0 @@
-FROM php:7.0-apache
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
-CMD [ "php", "./your-script.php" ]
